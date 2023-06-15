@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #ab8476
+}
+
+.container{
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+
+}
+
+.tema{
+  color: aliceblue;
+  padding-left: 20px;
+  font-family: 'Macondo', cursive;
+  font-size: 40px;
+}
+
+.link-tema {
+  text-decoration: none;
+}
+
+
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+
+
+}
+
+nav .logo{
+
+  padding-left: 25px;
+}
+
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+}
+
+nav ul li a{
+padding: 10px 20px;
+text-decoration: none;
+font-size: 19px;
+color: rgb(208, 207, 207);
+border-radius: 30px;
+transition: 0.6;
+}
+
+nav ul li a:hover{
+background-color: #cc978e;
+color: #000000;
+}
+
+h1{
+    color: #1a1423;
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Macondo&family=Ruda&family=Special+Elite&display=swap');
+ 
+  h1.t{
+    font-family: 'Special Elite', cursive;
+  font-size: 45px;
+  color: #1a1423;
+  
+  }
+
+.text1 {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #000000;
+}
+
+.text2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+
+
+  ul.about {
+    list-style-type: circle;
+    font-size: 20px;
+    padding-left: 300px;
+  }
+
+
+  .photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+
+  
+  .fixed-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .fixed-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+
+
+
+  .gallery {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+  }
+  
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  
+  .image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  
+  
+  .caption {
+    margin-top: 10px;
+    
+  }
+  
